@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star Eagle Security Services</title>
+
+  <!-- stylesheet import -->
+  <link rel="stylesheet" href="styles/style.css">
+
+
+  <!-- font imports from google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- fontawesome icons import -->
+  <script src="https://kit.fontawesome.com/ec61877167.js" crossorigin="anonymous"></script>
+
+  <!-- import favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="resources/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="resources/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="resources/images/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+
+</head>
+
+<body>
+  <main>
+
+
+
+    <!-- navigation bar and header -->
+    <header>
+
+      <nav class="navbar">
+        <!-- LOGO -->
+        <div>
+          <img src="resources/images/logo_final.jpg" alt="logo" class="logo" />
+        </div>
+        <!-- Navigation Menu -->
+        <ul class="nav-links">
+          <!-- USING CHECKBOX  -->
+          <input type="checkbox" id="checkbox_toggle" onclick="myToggle()" checked />
+          <label for="checkbox_toggle" class="hamburger"><i class="fas fa-bars"></i></label>
+          <div class="menu">
+            <li class="menu-hover"> <a href="#home"> HOME</a> </li>
+            <li> <a href="#services"> SERVICES </a> </li>
+            <li> <a href="#contact">CONTACT</a> </li>
+            <li> <a href="#about"> ABOUT </a> </li>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <!-- main content of the page start below -->
+    <main>
+
+      <!-- home section of the main page starts from below-->
+      <section id="home" class="home-section">
+        <!-- TODO: add the slider code here -->
+        <div class="slideshow-container" id="my-slider">
+
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+      <!--      <div class="numbertext">1 / 3</div>  -->
+            <img src="resources/images/cctv.jpg" style="width:100%">
+            <div class="text">Security Services</div>
+          </div>
+
+          <div class="mySlides fade">
+        <!--    <div class="numbertext">2 / 3</div>  -->
+            <img src="resources/images/security2.jpg" style="width:100%">
+            <div class="text">Labour contract</div>
+          </div>
+
+          <div class="mySlides fade">
+        <!--    <div class="numbertext">3 / 3</div>  -->
+            <img src="resources/images/security3.jpg" style="width:100%">
+            <div class="text">Manpower</div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+
+        <!-- TODO: add social media handles here -->
+      </section>
+      <!-- services section of the main page starts from below-->
+      <section id="services">
+        <div class="services-main my-services-section" id="my-services">
+          <div class="services-row-1">
+            <div class="service-1 common-service">
+              <span><i class="fas fa-home icons fa-lg"></i></span>
+              <h2 class="service-heading">House keeping</h2>
+              <p class="service-info">
+                We provide House Cleaning services
+                which includes Vacuum,Dust,Sanitize.
+              </p>
+              <a class="service-register" href="https://form.123formbuilder.com/6052229/form">REGISTER</a>
+            </div>
+            <div class="service-2 common-service">
+              <span><i class="fas fa-industry icons fa-lg"></i></span>
+              <h2 class="service-heading">Security services</h2>
+              <p class="service-info">
+              Provide guarding service to industries, establishments & residential complexes.
+              </p>
+              <a class="service-register" href="https://form.123formbuilder.com/6052229/form">REGISTER</a>
+            </div>
+          </div>
+          <div class="services-row-2">
+            <div class="service-3 common-service">
+              <span><i class="fas fa-building icons fa-lg"></i></i></span>
+              <h2 class="service-heading">Labour contract</h2>
+              <p class="service-info">
+                We provide physically fit , trained personnel
+                with our well adopted Labour contract.
+
+              </p>
+              <a class="service-register" href="https://form.123formbuilder.com/6052229/form">REGISTER</a>
+            </div>
+            <div class="service-4 common-service">
+              <span><i class="fas fa-user-shield icons fa-lg"></i></span>
+              <h2 class="service-heading">Manpower</h2>
+              <p class="service-info">
+          Provide trained crew which
+          oversees all operations,supervised by reliable team.
+              </p>
+              <a class="service-register" href="https://form.123formbuilder.com/6052229/form">REGISTER</a>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!-- contact section of the main page starts from below-->
+      <section id="contact">
+        <div class="contact-main">
+          <div class="contact-info">
+            <span class="contact-name">Manjunatha P</span>
+            <span class="contact-number">+91 9035175763</span>
+          </div>
+          <div class="contact-img-head">
+            <img class="logo-contact-img" src="resources/images/logo_final.jpg" alt="logo" />
+            <h2 class="contact-heading">Star Eagle Security Services</h2>
+          </div>
+          <div class="contact-address">
+            #133/1, 1st 'A' Main Road, Vinayakanagar Kamakshipalya,Bangalore - 560 079.
+          </div>
+          <a class="service-register" href="#contact-form-link">CONTACT</a>
+        </div>
+      </section>
+      <!-- about section of the main page starts from below-->
+      <section id="about">
+
+        <div class="about-main">
+          <h3 class="about-heading">Welcome to Star Eagle Security Services</h3>
+   <p class="about-text">We wish to introduce ourselves as a reputed/ Dependable/Service oriented Security Company in Bangalore with our
+   main motto being Providing Total Quality security Services, to our esteemed clients. </p>
+          <p class="about-text">
+          The organization has
+          comprehensive range of security and other related services, which includes Security services,
+          Housekeeping, Valet Drivers, Maintenance services, Private investigation and Detective services,
+          Licensed Arm guards, Escorting, Crisis management solutions, event management, medical emergency plan,
+           guarding services, etc.
+          </p>
+          <p class="about-text">
+          We have been pursuing excellence in every aspect of our operations work in the field PTC Our business success
+           has been integrity in dealing with customers through a team of highly efficient, committed, dedicated personnel
+           to provide excellent services in their designated areas of operation throughout year.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer section of the page -->
+    <footer>
+      <div class="footer-main">
+        <div class="footer-left">
+          <div class="social-network-links">
+            <span> <a href="https://www.facebook.com/" style="color:white" ><i class="fab fa-facebook fa-3x icons">  </i> </a>  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;   </span>
+            <span> <a href="https://www.instagram.com/" style="color:white"><i class="fab fa-instagram fa-3x icons">  </i></a>    &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  </span>
+            <span> <a href="mailto:stareagle1975@gmail.com" style="color:white"><i class="far fa-envelope fa-3x icons">   </i> </a>  &nbsp;  &nbsp;  &nbsp;   &nbsp;  &nbsp;  </span>
+          </div>
+          <div>
+            <form class="contact-form" id="contact-form-link"
+  action="https://formspree.io/f/xyyoykqg"
+  method="POST"
+>
+<label >
+  Your name:
+  <input type="text" name="name" class="form-label"  required>
+</label>
+<br />
+  <label >
+    Your email:
+    <input type="email" name="_replyto" class="form-label" required>
+  </label class="form-label">
+  <br />
+  <label >
+    Your Contact Number:
+    <input type="tel" name="number" class="form-label" required>
+  </label>
+  <br />
+  <label >
+    Your message:
+    <textarea name="message" class="form-label" ></textarea>
+  </label>
+  <br />
+  <button type="submit" class="service-register">Send</button>
+</form>
+          </div>
+        </div>
+        <div class="footer-right">
+        <div>
+          This Website is
+        </div>
+        <div class="">
+            Designed ,Developed And Maintained
+        </div>
+          <div>
+             By
+          </div>
+          <div class="tooltip">ME
+            <span class="tooltiptext">Hi ,Myself Karthik I am Full Stack developer.For any website design at affordable prices
+            please leave a mail to karthik.kc.dev@gmail.com
+            </span>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+    </footer>
+
+
+  </main>
+  <!--   loading java script files -->
+  <script src="scripts/index.js"></script>
+</body>
+
+</html>
